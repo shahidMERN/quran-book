@@ -1,0 +1,21 @@
+/*
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+=     00   00 00 00   00 00 00   00 00 00   00 00 00   00 00    =
+=     00   00    00        00    00    00   00    00   00       =
+=     00   00    00      00      00    00   00    00   00       =
+=     00   00    00    00        00    00   00    00   00       =
+=  00 00   00 00 00   00 00 00   00 00 00   00 00 00   00       =
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+*/
+
+/* Regular */
+@font-face {
+  font-family: "Muhammadi";
+  src: url("../fonts/Muhammadi1.eot");
+  src: url("../fonts/Muhammadi1.eot") format("embedded-opentype"),
+    url("../fonts/Muhammadi1.svg") format("svg"),
+    url("../fonts/Muhammadi1.woff") format("woff"),
+    url("../fonts/Muhammadi1.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

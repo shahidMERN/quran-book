@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="    موسوعة الحديث تضم كل كتب الحديث من صحيح البخاري و مسلم و سنن الترمذي و النسائي و ابي داود و ابن ماجه و مسند احمد و موطأ مالك و سنن الدارمي
+">
+    <meta name="keywords" content="    موسوعة الحديث - أحاديث صحيحة - رواة الاحاديث - موضوعات الاحاديث - كتب الاحاديث
+">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> موسوعة الحديث</title>
+    <link rel="stylesheet" href="/src/hadees-db/dist/css/font.css">
+    <link rel="stylesheet" href="/src/hadees-db/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/src/hadees-db/dist/css/uikit.min.css">
+    <link rel="stylesheet" href="/src/hadees-dbdist/css/rtl.min.css">
+    <link rel="stylesheet" href="/src/hadees-db/dist/css/flipped.min.css">
+    <link rel="stylesheet" href="/src/hadees-db/dist/css/style.css">
+    <link rel="stylesheet" href="/src/hadees-db/dist/css/jquery-ui.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="/src/hadees-db/dist/img/favicon.png"/>
+    <link href="/src/hadees-db/dist/css/bootstrap-editable.css" rel="stylesheet">
+
+
+<body>
+<!-- <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-62554046-4', 'auto');
+  ga('send', 'pageview');
+
+</script> -->
+<div class="container main">
+    <div class="shadow">
+        <header>
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand text-center" href="http://hadith.islam-db.com">
+                            <img alt="Brand" src="/dist/img/New-logo.png" class="img-logo" alt="logo" title="موسوعة الحديث">
+                        </a>
+                    </div>
+                </div>
+            </nav>
+            <!--end of navbar inverse-->
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="http://hadith.islam-db.com" title="الرئيسية">الرئيسية</a></li>
+                            <li><a href="http://hadith.islam-db.com/topic" title="الموضوعات">الموضوعات</a></li>
+                            <li><a href="http://hadith.islam-db.com/all-books" title="الكتب">الكتب</a></li>
+                            <li><a href="http://hadith.islam-db.com/all-narrators" title="الرواة">الرواة</a></li>
+                            <li><a href="http://hadith.islam-db.com/authors" title="المؤلفين">المؤلفين</a></li>
+                            <li><a href="http://hadith.islam-db.com/mybooks" title="كتبي">كتبي</a></li>
+                            <li><a href="http://hadith.islam-db.com/about" title="عن الموقع">عن الموقع</a>
+                        </ul>
+                        <form class="navbar-form navbar-right hidden-xs" action="http://hadith.islam-db.com/search-hadith" method="get">
+                            <input type="hidden" name="_token" value="hlxfCYbRlXDe0FQDWMtIrYOPGKZHA11pQBb7Neho">
+                            <div class="form-group">
+                                <div class="ui-widget">
+                                <input type="text" id="seInput" name="search" class="form-control" placeholder="Search" required>
+                                    </div>
+                            </div>
+                            <button type="submit" class="btn btn-default">ابحث</button>
+
+                        </form>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+                <div class="search-body visible-xs">
+                    <form class="navbar-form" action="http://hadith.islam-db.com/search-hadith" method="get">
+                        <div class="input-group">
+                        <span class="input-group-btn">
+                        <button type="submit" class="btn btn-default uk-margin-left">ابحث</button>
+                            </span>
+                            <input type="text" name="search" class="form-control" placeholder="Search" required>
+                        </div><!-- /input-group -->
+
+                    </form>
+
+                </div>
+
+        </header>
+        <!--end of header-->
+
+            <div class="slideshow-container">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="http://hadith.islam-db.com/dist/img/slide-4.jpg" alt="slide-1" title="المسجد النبوي" class="img-slider">
+                </div>
+                <div class="item">
+                    <img src="http://hadith.islam-db.com/dist/img/slide-3.jpg" alt="slide-2" title="مكة" class="img-slider">
+                </div>
+                <div class="item">
+                    <img src="http://hadith.islam-db.com/dist/img/slide-2.jpg" alt="slide-3" title="المسجد الحرام" class="img-slider">
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!--end slideshow -->
+
+    <div class="panel-body text-center">
+        <div class="col-md-4 col-sm-6">
+            <img src="http://hadith.islam-db.com/dist/img/books.png" alt="الكتب" title="الكتب" class="img-responsive img-up">
+            <h3 class="text-info">المئات من الكتب</h3>
+            <p>"الكتب والمواضيع" لدينا 1400 كتاب مقسمة إلى 18 موضوع </p>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <img src="http://hadith.islam-db.com/dist/img/author.png" alt="المؤلفين" title="المؤلفين" class="img-responsive img-up">
+            <h3 class="text-info">المئات من المؤلفين</h3>
+            <p>"المؤلفين والرواة" لدينا لدينا 691 مؤلف وجامع للاحاديث الصحيحة و 42517 الف راوي مع بيانات مفصله</p>
+
+        </div>
+        <div class="col-md-4 col-sm-12">
+            <img src="http://hadith.islam-db.com/dist/img/category.png" alt="الموضوعات" title="الموضوعات" class="img-responsive img-up">
+            <h3 class="text-info">مواضيع كثيرة</h3>
+            <p>"الأحاديث" لدينا 753192 الف حديث مخرج ومفهرس في 176448 الف موضوع. لدينا أكثر من 40 ألف حديث مشروح.</p>
+        </div>
+
+    </div>
+<!--end public group-->
+
+<div class="categories">
+    <div class="text-center">
+        <h2 class="text-info margin-bottom">المواضيع</h2>
+    </div>
+    <div class="uk-margin-top">
+                    <div class="col-md-4 col-sm-6 col-xs-12 margin-bottom">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-4 img-index">
+                        <img src="http://hadith.islam-db.com/dist/img/category.png" alt="الموضوعات" title="أجزاء وفوائد" class="img-responsive img-up img-shadow">
+
+                    </div>
+                    <div class="col-md-8 col-sm-8 col-xs-8 panel-index">
+                        <div class="panel panel-default panel-shdow">
+                            <div class="panel-body">
+
+
+                                <h4 class="margin-right">
+                                    <a href="http://hadith.islam-db.com/topic/1/أجزاء-وفوائد" class="black-color">
+                                       أجزاء وفوائد
+                                    </a>
+                                </h4>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                        <div class="col-md-4 col-sm-6 col-xs-12 margin-bottom">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-4 img-index">
+                        <img src="http://hadith.islam-db.com/dist/img/category.png" alt="الموضوعات" title="أخلاق" class="img-responsive img-up img-shadow">
+
+                    </div>
+                    <div class="col-md-8 col-sm-8 col-xs-8 panel-index">
+                        <div class="panel panel-default panel-shdow">
+                            <div class="panel-body">
+
+
+                                <h4 class="margin-right">
+                                    <a href="http://hadith.islam-db.com/topic/2/أخلاق" class="black-color">
+                                       أخلاق
+                                    </a>
+                                </h4>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                        <div class="col-md-4 col-sm-6 col-xs-12 margin-bottom">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-4 img-index">
+                        <img src="http://hadith.islam-db.com/dist/img/category.png" alt="الموضوعات" title="أمالي" class="img-responsive img-up img-shadow">
+
+                    </div>
+                    <div class="col-md-8 col-sm-8 col-xs-8 panel-index">
+                        <div class="panel panel-default panel-shdow">
+                            <div class="panel-body">
+
+
+                                <h4 class="margin-right">
+                                    <a href="http://hadith.islam-db.com/topic/3/أمالي" class="black-color">
+                                       أمالي
+                                    </a>
+                                </h4>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                        <div class="col-md-4 col-sm-6 col-xs-12 margin-bottom">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-4 img-index">
+                        <img src="http://hadith.islam-db.com/dist/img/category.png" alt="الموضوعات" title="تراجم وتواريخ" class="img-responsive img-up img-shadow">
+
+                    </div>
+                    <div class="col-md-8 col-sm-8 col-xs-8 panel-index">
+                        <div class="panel panel-default panel-shdow">
+                            <div class="panel-body">
+
+
+                                <h4 class="margin-right">
+                                    <a href="http://hadith.islam-db.com/topic/4/تراجم-وتواريخ" class="black-color">
+                                       تراجم وتواريخ
+                                    </a>
+                                </h4>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                        <div class="col-md-4 col-sm-6 col-xs-12 margin-bottom">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-4 img-index">
+                        <img src="http://hadith.islam-db.com/dist/img/category.png" alt="الموضوعات" title="تفسير قرآن" class="img-responsive img-up img-shadow">
+
+                    </div>
+                    <div class="col-md-8 col-sm-8 col-xs-8 panel-index">
+                        <div class="panel panel-default panel-shdow">
+                            <div class="panel-body">
+
+
+                                <h4 class="margin-right">
+                                    <a href="http://hadith.islam-db.com/topic/5/تفسير-قرآن" class="black-color">
+                                       تفسير قرآن
+                                    </a>
+                                </h4>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                        <div class="col-md-4 col-sm-6 col-xs-12 margin-bottom">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-4 img-index">
+                        <img src="http://hadith.islam-db.com/dist/img/category.png" alt="الموضوعات" title="زهد ورقائق" class="img-responsive img-up img-shadow">
+
+                    </div>
+                    <div class="col-md-8 col-sm-8 col-xs-8 panel-index">
+                        <div class="panel panel-default panel-shdow">
+                            <div class="panel-body">
+
+
+                                <h4 class="margin-right">
+                                    <a href="http://hadith.islam-db.com/topic/6/زهد-ورقائق" class="black-color">
+                                       زهد ورقائق
+                                    </a>
+                                </h4>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                        <div class="col-md-4 col-sm-6 col-xs-12 margin-bottom">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-4 img-index">
+                        <img src="http://hadith.islam-db.com/dist/img/category.png" alt="الموضوعات" title="سنن وموطآت" class="img-responsive img-up img-shadow">
+
+                    </div>
+                    <div class="col-md-8 col-sm-8 col-xs-8 panel-index">
+                        <div class="panel panel-default panel-shdow">
+                            <div class="panel-body">
+
+
+                                <h4 class="margin-right">
+                                    <a href="http://hadith.islam-db.com/topic/7/سنن-وموطآت" class="black-color">
+                                       سنن وموطآت
+                                    </a>
+                                </h4>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                        <div class="col-md-4 col-sm-6 col-xs-12 margin-bottom">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-4 img-index">
+                        <img src="http://hadith.islam-db.com/dist/img/category.png" alt="الموضوعات" title="سيرة وشمائل" class="img-responsive img-up img-shadow">
+
+                    </div>
+                    <div class="col-md-8 col-sm-8 col-xs-8 panel-index">
+                        <div class="panel panel-default panel-shdow">
+                            <div class="panel-body">
+
+
+                                <h4 class="margin-right">
+                                    <a href="http://hadith.islam-db.com/topic/8/سيرة-وشمائل" class="black-color">
+                                       سيرة وشمائل
+                                    </a>
+                                </h4>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                        <div class="col-md-4 col-sm-6 col-xs-12 margin-bottom">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-4 img-index">
+                        <img src="http://hadith.islam-db.com/dist/img/category.png" alt="الموضوعات" title="صحاح ومستخرجات" class="img-responsive img-up img-shadow">
+
+                    </div>
+                    <div class="col-md-8 col-sm-8 col-xs-8 panel-index">
+                        <div class="panel panel-default panel-shdow">
+                            <div class="panel-body">
+
+
+                                <h4 class="margin-right">
+                                    <a href="http://hadith.islam-db.com/topic/9/صحاح-ومستخرجات" class="black-color">
+                                       صحاح ومستخرجات
+                                    </a>
+                                </h4>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                </div>
+    <div class="text-center uk-margin-top uk-margin-bottom">
+        <a href="http://hadith.islam-db.com/topic" class="btn btn-primary btn-ms">المزيد من المواضيع</a>
+    </div>
+
+</div>
+<!-- end of categories-->
+
+<div class="books">
+    <div class="text-center">
+        <h2 class=""> الكتب </h2>
+    </div>
+    <div class="uk-margin-top">
+                <div class="col-md-4 col-sm-6 col-xs-12 xs-device uk-margin-bottom">
+            <div class="book-ui">
+
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-5">
+                        <a href=""><img src="http://hadith.islam-db.com/dist/img/book-cover.png" class="img-responsive img-book" alt="الكتب" title="مسند الربيع بن حبيب"></a>
+                    </div>
+                    <div class="col-md-8 col-sm-8 col-xs-7 uk-margin-top margin-right-mins">
+                        <h5 class="uk-margin-top">أسم الكتاب :  <span class="text-info"> <a
+                                        href="http://hadith.islam-db.com/books/1/مسند-الربيع-بن-حبيب">مسند الربيع بن حبيب</a></span></h5>
+                        <h5>أسم المؤلف : <span class="text-info"> <a href="http://hadith.islam-db.com/single-authors/1/الربيع-بن-حبيب">الربيع بن حبيب</a></span></h5>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 xs-device uk-margin-bottom">
+            <div class="book-ui">
+
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-5">
+                        <a href=""><img src="http://hadith.islam-db.com/dist/img/book-cover.png" class="img-responsive img-book" alt="الكتب" title="تفسير مجاهد"></a>
+                    </div>
+                    <div class="col-md-8 col-sm-8 col-xs-7 uk-margin-top margin-right-mins">
+                        <h5 class="uk-margin-top">أسم الكتاب :  <span class="text-info"> <a
+                                        href="http://hadith.islam-db.com/books/2/تفسير-مجاهد">تفسير مجاهد</a></span></h5>
+                        <h5>أسم المؤلف : <span class="text-info"> <a href="http://hadith.islam-db.com/single-authors/2/مجاهد-بن-جبر">مجاهد بن جبر</a></span></h5>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 xs-device uk-margin-bottom">
+            <div class="book-ui">
+
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-5">
+                        <a href=""><img src="http://hadith.islam-db.com/dist/img/book-cover.png" class="img-responsive img-book" alt="الكتب" title="مسند زيد"></a>
+                    </div>
+                    <div class="col-md-8 col-sm-8 col-xs-7 uk-margin-top margin-right-mins">
+                        <h5 class="uk-margin-top">أسم الكتاب :  <span class="text-info"> <a
+                                        href="http://hadith.islam-db.com/books/4/مسند-زيد">مسند زيد</a></span></h5>
+                        <h5>أسم المؤلف : <span class="text-info"> <a href="http://hadith.islam-db.com/single-authors/3/زيد-بن-علي-بن-الحسين">زيد بن علي بن الحسين</a></span></h5>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 xs-device uk-margin-bottom">
+            <div class="book-ui">
+
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-5">
+                        <a href=""><img src="http://hadith.islam-db.com/dist/img/book-cover.png" class="img-responsive img-book" alt="الكتب" title="مسانيد فراس المكتب رواية أبي نعيم"></a>
+                    </div>
+                    <div class="col-md-8 col-sm-8 col-xs-7 uk-margin-top margin-right-mins">
+                        <h5 class="uk-margin-top">أسم الكتاب :  <span class="text-info"> <a
+                                        href="http://hadith.islam-db.com/books/5/مسانيد-فراس-المكتب-رواية-أبي-نعيم">مسانيد فراس المكتب رواية أبي نعيم</a></span></h5>
+                        <h5>أسم المؤلف : <span class="text-info"> <a href="http://hadith.islam-db.com/single-authors/4/أبو-نعيم-الأصبهاني">أبو نعيم الأصبهاني</a></span></h5>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 xs-device uk-margin-bottom">
+            <div class="book-ui">
+
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-5">
+                        <a href=""><img src="http://hadith.islam-db.com/dist/img/book-cover.png" class="img-responsive img-book" alt="الكتب" title="حديث أيوب السختياني"></a>
+                    </div>
+                    <div class="col-md-8 col-sm-8 col-xs-7 uk-margin-top margin-right-mins">
+                        <h5 class="uk-margin-top">أسم الكتاب :  <span class="text-info"> <a
+                                        href="http://hadith.islam-db.com/books/6/حديث-أيوب-السختياني">حديث أيوب السختياني</a></span></h5>
+                        <h5>أسم المؤلف : <span class="text-info"> <a href="http://hadith.islam-db.com/single-authors/5/أيوب-السختياني">أيوب السختياني</a></span></h5>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 xs-device uk-margin-bottom">
+            <div class="book-ui">
+
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-5">
+                        <a href=""><img src="http://hadith.islam-db.com/dist/img/book-cover.png" class="img-responsive img-book" alt="الكتب" title="صحيفة همام بن منبه"></a>
+                    </div>
+                    <div class="col-md-8 col-sm-8 col-xs-7 uk-margin-top margin-right-mins">
+                        <h5 class="uk-margin-top">أسم الكتاب :  <span class="text-info"> <a
+                                        href="http://hadith.islam-db.com/books/7/صحيفة-همام-بن-منبه">صحيفة همام بن منبه</a></span></h5>
+                        <h5>أسم المؤلف : <span class="text-info"> <a href="http://hadith.islam-db.com/single-authors/6/همام-بن-منبه">همام بن منبه</a></span></h5>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 xs-device uk-margin-bottom">
+            <div class="book-ui">
+
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-5">
+                        <a href=""><img src="http://hadith.islam-db.com/dist/img/book-cover.png" class="img-responsive img-book" alt="الكتب" title="مسند أبي حنيفة رواية أبي نعيم"></a>
+                    </div>
+                    <div class="col-md-8 col-sm-8 col-xs-7 uk-margin-top margin-right-mins">
+                        <h5 class="uk-margin-top">أسم الكتاب :  <span class="text-info"> <a
+                                        href="http://hadith.islam-db.com/books/11/مسند-أبي-حنيفة-رواية-أبي-نعيم">مسند أبي حنيفة رواية أبي نعيم</a></span></h5>
+                        <h5>أسم المؤلف : <span class="text-info"> <a href="http://hadith.islam-db.com/single-authors/7/أبو-حنيفة">أبو حنيفة</a></span></h5>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 xs-device uk-margin-bottom">
+            <div class="book-ui">
+
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-5">
+                        <a href=""><img src="http://hadith.islam-db.com/dist/img/book-cover.png" class="img-responsive img-book" alt="الكتب" title="جزء ابن جريج"></a>
+                    </div>
+                    <div class="col-md-8 col-sm-8 col-xs-7 uk-margin-top margin-right-mins">
+                        <h5 class="uk-margin-top">أسم الكتاب :  <span class="text-info"> <a
+                                        href="http://hadith.islam-db.com/books/12/جزء-ابن-جريج">جزء ابن جريج</a></span></h5>
+                        <h5>أسم المؤلف : <span class="text-info"> <a href="http://hadith.islam-db.com/single-authors/8/عبد-الملك-بن-جريج">عبد الملك بن جريج</a></span></h5>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 xs-device uk-margin-bottom">
+            <div class="book-ui">
+
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-5">
+                        <a href=""><img src="http://hadith.islam-db.com/dist/img/book-cover.png" class="img-responsive img-book" alt="الكتب" title="الجامع لمعمر بن راشد"></a>
+                    </div>
+                    <div class="col-md-8 col-sm-8 col-xs-7 uk-margin-top margin-right-mins">
+                        <h5 class="uk-margin-top">أسم الكتاب :  <span class="text-info"> <a
+                                        href="http://hadith.islam-db.com/books/13/الجامع-لمعمر-بن-راشد">الجامع لمعمر بن راشد</a></span></h5>
+                        <h5>أسم المؤلف : <span class="text-info"> <a href="http://hadith.islam-db.com/single-authors/9/معمر-بن-راشد-الأزدي">معمر بن راشد الأزدي</a></span></h5>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+                </div>
+    <div class="uk-margin-top text-center uk-margin-bottom">
+        <a href="http://hadith.islam-db.com/all-books" class="btn btn-primary btn-ms">المزيد من الكتب</a>
+    </div>
+
+</div>
+<!--end of books-->
+
+<div class="authors">
+    <div class="text-center uk-margin-top">
+        <h2 class="text-info">المؤلفين</h2>
+    </div>
+    <div class="uk-margin-large-top">
+                <div class="col-md-4 col-sm-6 col-xs-12 xs-device text-center uk-margin-bottom">
+            <img src="http://hadith.islam-db.com/dist/img/author.png" class="img-up" alt="المؤلفين" title="الربيع بن حبيب">
+            <h4 class="text-info uk-margin-top-remove"><a href="http://hadith.islam-db.com/single-authors/1/الربيع-بن-حبيب">الربيع بن حبيب</a> </h4>
+        </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 xs-device text-center uk-margin-bottom">
+            <img src="http://hadith.islam-db.com/dist/img/author.png" class="img-up" alt="المؤلفين" title="مجاهد بن جبر">
+            <h4 class="text-info uk-margin-top-remove"><a href="http://hadith.islam-db.com/single-authors/2/مجاهد-بن-جبر">مجاهد بن جبر</a> </h4>
+        </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 xs-device text-center uk-margin-bottom">
+            <img src="http://hadith.islam-db.com/dist/img/author.png" class="img-up" alt="المؤلفين" title="زيد بن علي بن الحسين">
+            <h4 class="text-info uk-margin-top-remove"><a href="http://hadith.islam-db.com/single-authors/3/زيد-بن-علي-بن-الحسين">زيد بن علي بن الحسين</a> </h4>
+        </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 xs-device text-center uk-margin-bottom">
+            <img src="http://hadith.islam-db.com/dist/img/author.png" class="img-up" alt="المؤلفين" title="أبو نعيم الأصبهاني">
+            <h4 class="text-info uk-margin-top-remove"><a href="http://hadith.islam-db.com/single-authors/4/أبو-نعيم-الأصبهاني">أبو نعيم الأصبهاني</a> </h4>
+        </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 xs-device text-center uk-margin-bottom">
+            <img src="http://hadith.islam-db.com/dist/img/author.png" class="img-up" alt="المؤلفين" title="أيوب السختياني">
+            <h4 class="text-info uk-margin-top-remove"><a href="http://hadith.islam-db.com/single-authors/5/أيوب-السختياني">أيوب السختياني</a> </h4>
+        </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 xs-device text-center uk-margin-bottom">
+            <img src="http://hadith.islam-db.com/dist/img/author.png" class="img-up" alt="المؤلفين" title="همام بن منبه">
+            <h4 class="text-info uk-margin-top-remove"><a href="http://hadith.islam-db.com/single-authors/6/همام-بن-منبه">همام بن منبه</a> </h4>
+        </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 xs-device text-center uk-margin-bottom">
+            <img src="http://hadith.islam-db.com/dist/img/author.png" class="img-up" alt="المؤلفين" title="أبو حنيفة">
+            <h4 class="text-info uk-margin-top-remove"><a href="http://hadith.islam-db.com/single-authors/7/أبو-حنيفة">أبو حنيفة</a> </h4>
+        </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 xs-device text-center uk-margin-bottom">
+            <img src="http://hadith.islam-db.com/dist/img/author.png" class="img-up" alt="المؤلفين" title="عبد الملك بن جريج">
+            <h4 class="text-info uk-margin-top-remove"><a href="http://hadith.islam-db.com/single-authors/8/عبد-الملك-بن-جريج">عبد الملك بن جريج</a> </h4>
+        </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 xs-device text-center uk-margin-bottom">
+            <img src="http://hadith.islam-db.com/dist/img/author.png" class="img-up" alt="المؤلفين" title="معمر بن راشد الأزدي">
+            <h4 class="text-info uk-margin-top-remove"><a href="http://hadith.islam-db.com/single-authors/9/معمر-بن-راشد-الأزدي">معمر بن راشد الأزدي</a> </h4>
+        </div>
+                </div>
+    <div class="uk-margin-top text-center uk-margin-bottom">
+        <a href="http://hadith.islam-db.com/authors" class="btn btn-primary btn-ms">المزيد من المؤلفين</a>
+    </div>
+
+</div>
+<!--end of authors-->
+    
+        <footer class="nav">
+            <nav class="navbar navbar-inverse ">
+                <div class="container-fluid">
+                    <div class="text-center">
+                        <h5 class="text-primary">صمم وطور بواسطة فكرة كمبيوتر &copy;</h5>
+                    </div>
+                </div>
+            </nav>
+
+        </footer>
+
+    </div>
+
+
+
+</div>
+<!--end of content container-->
+
+<!--end main container-->
+
+<!--javascript files-->
+<script src="http://hadith.islam-db.com/dist/js/jquery.min.js"></script>
+<script src="http://hadith.islam-db.com/dist/js/jquery-ui.js"></script>
+<script src="http://hadith.islam-db.com/dist/js/bootstrap.min.js"></script>
+<script src="http://hadith.islam-db.com/dist/js/bootstrap-editable.js"></script>
+<script src="http://hadith.islam-db.com/dist/js/uikit.min.js"></script>
+<script src="http://hadith.islam-db.com/dist/js/slideshow.min.js"></script>
+<script src="http://hadith.islam-db.com/dist/js/tooltip.js"></script>
+<script src="http://hadith.islam-db.com/dist/js/app.js"></script>
+
+
+
+</body>
+</html>
