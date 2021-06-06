@@ -1,0 +1,2 @@
+"winbuild": "set \"GENERATE_SOURCEMAP=false\" &&react-scripts build",
+GENERATE_SOURCEMAP=false
