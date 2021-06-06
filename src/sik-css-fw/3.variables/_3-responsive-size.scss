@@ -1,3 +1,41 @@
 // CONTAINER BREAK-POINTS
 
 // GRID BREAK-POINTS
+$prefix: sik;
+
+$position-values: (
+  0: 0,
+  50: 50%,
+  100: 100%,
+) !default;
+// Style p element.
+
+$paragraph-margin-bottom: 1rem !default;
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+) !default;
+@include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
+@include _assert-starts-at-zero($grid-breakpoints, "$grid-breakpoints");
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px,
+) !default;
+@include _assert-ascending($container-max-widths, "$container-max-widths");
+
+// Container padding
+$container-padding-x: $grid-gutter-width / 2 !default;
+// scss-docs-start aspect-ratios
+$aspect-ratios: (
+  "1x1": 100%,
+  "4x3": calc(3 / 4 * 100%),
+  "16x9": calc(9 / 16 * 100%),
+  "21x9": calc(9 / 21 * 100%),
+) !default;

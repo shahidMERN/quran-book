@@ -27,3 +27,31 @@ $min-contrast-ratio: 4.5 !default;
 // Customize the light and dark text colors for use in our color contrast function.
 $c-contrast-d: $c-black !default;
 $c-contrast-l: $c-white !default;
+// Gradient
+//
+// The gradient which is added to components if `$enable-gradients` is `true`
+// This gradient is also added to elements with `.bg-gradient`
+// scss-docs-start variable-gradient
+$gradient: linear-gradient(
+  180deg,
+  rgba($white, 0.15),
+  rgba($white, 0)
+) !default;
+// scss-docs-end variable-gradient
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-bg: $white !default;
+$body-color: $gray-900 !default;
+$body-text-align: null !default;
+// Style anchor elements.
+
+$link-color: $primary !default;
+$link-decoration: underline !default;
+$link-shade-percentage: 20% !default;
+$link-hover-color: shift-color($link-color, $link-shade-percentage) !default;
+$link-hover-decoration: null !default;
+
+$stretched-link-pseudo-element: after !default;
+//$stretched-link-z-index: ;
