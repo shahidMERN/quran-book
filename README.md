@@ -1,10 +1,5 @@
-# QURAN BOOK
+# MY CUSTOM CSS- FRAMEWORK
 
-## Inshallah this will be the world first App of its kind.
+## I M TRYING TO MAKE MY OWN CUSTOM CSS FRAME WORK FOR THIS PROJECT
 
-### it will cover topics
-
-[ Quran Pak]
-[PROPHET LIFE]
-[SAHIH- DOUT & FALSE] HADEES DATA
-[RAVIS] CHAIN NARRATOR DETAILS
+### LAY OUT OF MY FRAME-WORK BE LIKE THIS
