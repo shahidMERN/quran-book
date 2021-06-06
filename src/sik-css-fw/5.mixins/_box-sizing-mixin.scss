@@ -1,16 +1,7 @@
 // ==========================================================================
-// Inverse
+// Box-Sizing mixin
 // ==========================================================================
 
-.inverse {
-  color: $base-color-inverse;
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    color: $heading-color-inverse;
-  }
+@mixin box-sizing($box-model) {
+  box-sizing: $box-model;
 }

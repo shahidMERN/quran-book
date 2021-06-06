@@ -1,5 +1,5 @@
 import React from "react";
-import "./sass/12.theme/theme.scss";
+import "./sik-css-fw/13.theme/my-theme.scss";
 function App() {
   return <div>REACT BOILER PLATE</div>;
 }

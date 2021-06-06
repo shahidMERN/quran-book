@@ -1,9 +1,5 @@
-// ==========================================================================
 // Margin
-// ==========================================================================
-
-.margin {
-  // Create margin classes
+.m {
   // For each space key found in the $spaces map from the settings.
   @each $space, $margin in $spaces {
     &-#{$space} {

@@ -1,13 +1,14 @@
 // ==========================================================================
-// Zones
+// Clearfix
 // ==========================================================================
 
-#{$zone-header} {
-  @extend %zone;
-}
-#{$zone-content} {
-  @extend %zone;
-}
-#{$zone-footer} {
-  @extend %zone;
+@mixin clearfix() {
+	&:before,
+	&:after {
+		content: '';
+		display: table;
+	}
+	&:after {
+		clear: both;
+	}
 }
