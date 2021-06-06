@@ -1,0 +1,24 @@
+// ==========================================================================
+// Standalone Displays
+// ==========================================================================
+
+.display {
+  &-b {
+    display: block;
+  }
+  &-f {
+    display: flex;
+  }
+  &-ilb {
+    display: inline-block;
+  }
+  &-il {
+    display: inline;
+  }
+  &-n {
+    display: none;
+  }
+  &-t {
+    display: table;
+  }
+}
