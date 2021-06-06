@@ -1,0 +1,2 @@
+stock local fonts in this folder 
+which you want to include in app

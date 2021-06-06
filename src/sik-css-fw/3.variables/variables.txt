@@ -1,0 +1,2 @@
+define all global variables in this folder
+so you can use them in any where in you app
