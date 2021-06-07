@@ -1,21 +1,50 @@
 $scale-ratio: 1.25 !default; // Major Third Ratio
 $scale-unit: 16 !default;
+iframe {
+  border: 0;
+}
+
+main {
+  display: block;
+}
+
+sup {
+  position: relative;
+  top: -0.5em;
+  vertical-align: baseline;
+  font-size: 75%;
+  line-height: 0;
+}
+
+strong {
+  font-weight: bold;
+}
+
+figure {
+  margin: 0;
+}
+
+::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
 *,
 *:before,
 *:after {
-  // @include box-sizing(inherit);
+  @include box-sizing(inherit);
   box-sizing: border-box;
 }
+/* HTML CSS-PROPERTIES*/
 html {
-  //  @include box-sizing(border-box);
-  //line-height: 1;
+  @include box-sizing(border-box);
+  line-height: 1;
   font-size: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+/* BODY-CSS-PROPERTIES*/
 body {
   background-color: $body-bgc;
   color: $body-c;
@@ -24,7 +53,8 @@ body {
   line-height: $lhb;
   margin: 0;
 }
-.urdu {
+/* URDU-TEXT CSS-PROPERTIES*/
+.urdu-text {
   font-family: $ff-ur;
   font-weight: $fw-l;
   font-size: $fs-md * 2;
@@ -34,7 +64,8 @@ body {
   margin-right: 10px;
   color: $c-ur-text;
 }
-.arabic {
+/* ARABIC-TEXT CSS-PROPERTIES*/
+.arabic-text {
   font-family: $ff-ar;
   font-weight: $fw-n;
   font-size: $fs-md * 1.25;

@@ -39,3 +39,9 @@ $container-max-widths: (
   xl: rem(1140px),
   xxl: rem(1320px),
 ) !default;
+$grid-breakpoints: (sm, md, lg, xl, xxl) !default;
+
+$grid-columns: 12 !default;
+
+// Gutter is applied to padding-left and padding-right. The value is not split.
+$grid-gutter: map-get($spaces, xxs) !default;

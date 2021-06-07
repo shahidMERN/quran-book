@@ -1,19 +1,53 @@
-/*!
- * Khan CSS 
- * http://khan.netlify.com
- *
- * Copyright (c) 2021, Shahid Khan
- * Licensed under the MIT license
+/*
+ ** Khan CSS 
+ ** http://khan.netlify.com
+ ** Copyright (c) 2021, Shahid Khan
+ ** Licensed under the MIT license
  */
 /* Spacing */
+iframe {
+  border: 0;
+}
+
+main {
+  display: block;
+}
+
+sup {
+  position: relative;
+  top: -0.5em;
+  vertical-align: baseline;
+  font-size: 75%;
+  line-height: 0;
+}
+
+strong {
+  font-weight: bold;
+}
+
+figure {
+  margin: 0;
+}
+
+::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
 *,
 *:before,
 *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
+/* HTML CSS-PROPERTIES*/
 html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 1;
   font-size: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -21,6 +55,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* BODY-CSS-PROPERTIES*/
 body {
   background-color: #f4f6f8;
   color: #191616;
@@ -30,7 +65,8 @@ body {
   margin: 0;
 }
 
-.urdu {
+/* URDU-TEXT CSS-PROPERTIES*/
+.urdu-text {
   font-family: "Alvi Nastaleeq";
   font-weight: lighter;
   font-size: 3.2rem;
@@ -41,7 +77,8 @@ body {
   color: #ee1ce3;
 }
 
-.arabic {
+/* ARABIC-TEXT CSS-PROPERTIES*/
+.arabic-text {
   font-family: "1 MUHAMMADI QURANIC";
   font-weight: normal;
   font-size: 2rem;
@@ -52,11 +89,15 @@ body {
   color: #3b8218;
 }
 
+/* CONTAINER BREAK-POINT CSS PROPERTIES*/
 .container {
   position: relative;
   margin: 0 auto;
-  padding: 0;
+  padding: 10px 10px;
   width: 100%;
+  background-color: #e699e6;
+  border-radius: 10px;
+  border: 3px solid #1f7e1a;
 }
 
 @media (min-width: rem(540px)) {
@@ -73,6 +114,12 @@ body {
 
 @media (min-width: rem(960px)) {
   .container {
+    max-width: rem(960px);
+  }
+}
+
+@media (min-width: rem(1140px)) {
+  .container {
     max-width: rem(1140px);
   }
 }
@@ -85,4 +132,133 @@ body {
 
 .container-full {
   max-width: 100%;
+}
+
+/* DISPLAY CSS-PROPERTIES*/
+.display-block {
+  display: block;
+}
+
+.display-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.display-inline-block {
+  display: inline-block;
+}
+
+.display-inline {
+  display: inline;
+}
+
+.display-none {
+  display: none;
+}
+
+.display-table {
+  display: table;
+}
+
+/* MARGIN CSS-PROPERTIES */
+.margin-xxxs {
+  margin: rem(8px);
+}
+
+.margin-xxs {
+  margin: rem(16px);
+}
+
+.margin-xs {
+  margin: rem(24px);
+}
+
+.margin-sm {
+  margin: rem(32px);
+}
+
+.margin-md {
+  margin: rem(40px);
+}
+
+.margin-lg {
+  margin: rem(48px);
+}
+
+.margin-xl {
+  margin: rem(56px);
+}
+
+.margin-xxl {
+  margin: rem(64px);
+}
+
+.margin-xxxl {
+  margin: rem(72px);
+}
+
+.margin-lr {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.margin-tb {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.margin-nulled {
+  margin: 0;
+}
+
+/* PADDING CSS-PROPERTIES */
+.padding-xxxs {
+  padding: rem(8px);
+}
+
+.padding-xxs {
+  padding: rem(16px);
+}
+
+.padding-xs {
+  padding: rem(24px);
+}
+
+.padding-sm {
+  padding: rem(32px);
+}
+
+.padding-md {
+  padding: rem(40px);
+}
+
+.padding-lg {
+  padding: rem(48px);
+}
+
+.padding-xl {
+  padding: rem(56px);
+}
+
+.padding-xxl {
+  padding: rem(64px);
+}
+
+.padding-xxxl {
+  padding: rem(72px);
+}
+
+.padding-lr {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.padding-tb {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.padding-nulled {
+  padding: 0;
 }
