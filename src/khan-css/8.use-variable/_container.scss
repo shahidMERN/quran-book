@@ -1,0 +1,29 @@
+//$breakpoints: (
+// sm: rem(540px),
+// md: rem(720px),
+// lg: rem(960px),
+// xl: rem(1140px),
+// xxl: rem(1320px),
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+
+  @include breakpoint-min(sm) {
+    max-width: map-get($container-max-widths, "sm");
+  }
+  @include breakpoint-min(md) {
+    max-width: map-get($container-max-widths, "md");
+  }
+  @include breakpoint-min(lg) {
+    max-width: map-get($container-max-widths, "xl");
+  }
+  @include breakpoint-min(xxl) {
+    max-width: map-get($container-max-widths, "xxl");
+  }
+  &-full {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,46 @@
+//FONT - STYLES
+
+// font- family
+$ff-en: "Roboto";
+$ff-ur: "Alvi Nastaleeq";
+$ff-ar: "1 MUHAMMADI QURANIC";
+// font size
+//em	Relative to the font-size of the element
+//    (2em means 2 times the size of the current font)
+// 1rem = 16 px;
+$font-size: 1rem !default;
+
+$fs-xxxs: $font-size !default;
+$fs-xxs: $font-size * 1.2 !default;
+$fs-xs: $font-size * 1.4 !default;
+$fs-md: $font-size * 1.6 !default;
+$fs-lg: $font-size * 1.8 !default;
+$fs-xl: $font-size * 2 !default;
+$fs-xxl: $font-size * 2.4 !default;
+$fs-xxxl: $font-size * 3 !default;
+
+//font - weight
+$fw-l: lighter;
+$fw-n: normal;
+$fw-b: bold;
+$fw-bo: bolder;
+$fw-1: 100;
+$fw-2: 200;
+$fw-3: 300;
+$fw-4: 400;
+$fw-5: 500;
+$fw-6: 600;
+$fw-7: 700;
+$fw-8: 800;
+$fw-9: 900;
+
+//font -style
+$fst-i: italic;
+$fst-b: bold;
+
+//base line height
+$lhb: 1.2;
+
+/* Spacing */
+$spacing-system: 0, 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32;
+$space-size: 0.5rem;

@@ -1,0 +1,88 @@
+/*!
+ * Khan CSS 
+ * http://khan.netlify.com
+ *
+ * Copyright (c) 2021, Shahid Khan
+ * Licensed under the MIT license
+ */
+/* Spacing */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #f4f6f8;
+  color: #191616;
+  font-size: 1.6rem;
+  font-family: "Roboto";
+  line-height: 1.2;
+  margin: 0;
+}
+
+.urdu {
+  font-family: "Alvi Nastaleeq";
+  font-weight: lighter;
+  font-size: 3.2rem;
+  line-height: 1.44;
+  direction: rtl;
+  text-align: start;
+  margin-right: 10px;
+  color: #ee1ce3;
+}
+
+.arabic {
+  font-family: "1 MUHAMMADI QURANIC";
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 1.92;
+  direction: rtl;
+  text-align: start;
+  margin-right: 10px;
+  color: #3b8218;
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+@media (min-width: rem(540px)) {
+  .container {
+    max-width: rem(540px);
+  }
+}
+
+@media (min-width: rem(720px)) {
+  .container {
+    max-width: rem(720px);
+  }
+}
+
+@media (min-width: rem(960px)) {
+  .container {
+    max-width: rem(1140px);
+  }
+}
+
+@media (min-width: rem(1320px)) {
+  .container {
+    max-width: rem(1320px);
+  }
+}
+
+.container-full {
+  max-width: 100%;
+}

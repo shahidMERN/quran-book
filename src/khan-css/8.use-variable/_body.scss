@@ -1,0 +1,46 @@
+$scale-ratio: 1.25 !default; // Major Third Ratio
+$scale-unit: 16 !default;
+*,
+*:before,
+*:after {
+  // @include box-sizing(inherit);
+  box-sizing: border-box;
+}
+html {
+  //  @include box-sizing(border-box);
+  //line-height: 1;
+  font-size: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: $body-bgc;
+  color: $body-c;
+  font-size: $fs-md;
+  font-family: $ff-en;
+  line-height: $lhb;
+  margin: 0;
+}
+.urdu {
+  font-family: $ff-ur;
+  font-weight: $fw-l;
+  font-size: $fs-md * 2;
+  line-height: $lhb * 1.2;
+  direction: rtl;
+  text-align: start;
+  margin-right: 10px;
+  color: $c-ur-text;
+}
+.arabic {
+  font-family: $ff-ar;
+  font-weight: $fw-n;
+  font-size: $fs-md * 1.25;
+  line-height: $lhb * 1.6;
+  direction: rtl;
+  text-align: start;
+  margin-right: 10px;
+  color: $c-ar-text;
+}

@@ -1,0 +1,33 @@
+@import "../3.variables/responsive";
+// break-point mixins
+@mixin breakpoint-min($name, $points: $breakpoints) {
+  @if map-has-key($points, $name) {
+    $min: breakpoint-min($name, $points);
+    @if $min {
+      @media (min-width: $min) {
+        @content;
+      }
+    } @else {
+      @content;
+    }
+  } @else {
+    @warn "Unfortunately, no value could be retrieved from `#{$name}`. "
+        + "Please make sure it is defined in `$breakpoints` map.";
+  }
+}
+
+@mixin breakpoint-max($name, $points: $breakpoints) {
+  @if map-has-key($points, $name) {
+    $max: breakpoint-max($name, $points);
+    @if $max {
+      @media (max-width: $max) {
+        @content;
+      }
+    } @else {
+      @content;
+    }
+  } @else {
+    @warn "Unfortunately, no value could be retrieved from `#{$name}`. "
+        + "Please make sure it is defined in `$breakpoints` map.";
+  }
+}
